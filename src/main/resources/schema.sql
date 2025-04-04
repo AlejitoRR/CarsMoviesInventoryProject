@@ -1,6 +1,7 @@
-CREATE TABLE IF NOT EXISTS CARS_MOVIES_ENTITY (
+
+CREATE TABLE IF NOT EXISTS COSTLY_MOTORCYCLES (
                                     id UUID DEFAULT RANDOM_UUID() PRIMARY KEY,
-                                    car_movie_name VARCHAR(255) NOT NULL,
-                                    car_movie_year VARCHAR(4) NOT NULL,
-                                    duration INTEGER NOT NULL
+                                    marca VARCHAR(100) NOT NULL,
+                                    modelo VARCHAR(100) NOT NULL,
+                                    top_speed INTEGER NOT NULL  -- en km/h
 );
