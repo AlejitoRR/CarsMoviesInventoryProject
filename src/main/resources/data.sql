@@ -1,4 +1,4 @@
-MERGE INTO motosCostosas (id, marca, modelo, top_speed)
+MERGE INTO motos_costosas(id, marca, modelo, top_speed)
     KEY(id)
     VALUES
         ('550e8400-e29b-41d4-a716-446655440000', 'Ducati', 'Panigale V4 R', 299),
