@@ -1,4 +1,4 @@
-package com.carsmoviesinventory.app;
+package com.motoscostosasinventory.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

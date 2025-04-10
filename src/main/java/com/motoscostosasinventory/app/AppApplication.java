@@ -1,4 +1,4 @@
-package com.carsmoviesinventory.app;
+package com.motoscostosasinventory.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
